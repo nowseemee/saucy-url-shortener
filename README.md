@@ -2,7 +2,7 @@
 
 ## How to run?
  - `npm i`
- - `npm build`
- - `npm start`
+ - `npm run build`
+ - `npm run start`
 
  server starts on port 3001
