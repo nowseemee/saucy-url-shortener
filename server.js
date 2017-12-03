@@ -20,7 +20,6 @@ app.get('/s/*', (req, res) => {
 });
 
 app.post('/create', (req, res) => {
-    console.log(req.body);
     return res.json(store.create(req.body.original))
 });
 
