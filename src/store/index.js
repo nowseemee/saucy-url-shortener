@@ -8,9 +8,7 @@ const create = (original) => {
     return payload;
 };
 
-const read = (short) => {
-    return R.find(R.propEq('short', short))(store)
-};
+const read = (short) => R.find(R.propEq('short', short))(store);
 
 module.exports = {
     create,
